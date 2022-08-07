@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+</head>
+<body>
+
+    <fieldset>
+    1.ชื่อสาขา :
+    <input type="text" required><br>
+    </fieldset>
+    <fieldset>
+    2.จำนวนเงินที่จะโอน
+    <input type="number" pattern="\d+" required><br>
+    </fieldset>
+    <fieldset>
+    3.อาหารที่ชื่อชอบชนิดที่ 1 :
+    <select name="like">
+    <option value="">-- Select satisfaction --</option>
+    <option value="most like" >ชอบมาก</option>
+    <option value="like" >ชอบ</option>
+    <option value="ืnormal" >ปานกลาง</option>
+    <option value="dislike" >ไม่ชอบ</option>
+    <option value="don'tlike" >ไม่ชอบเลย</option>
+    </select><br>
+    อาหารที่ชื่อชอบชนิดที่ 2 :
+    <select name="like">
+    <option value="">-- Select satisfaction --</option>
+    <option value="most like" >ชอบมาก</option>
+    <option value="like" >ชอบ</option>
+    <option value="ืnormal" >ปานกลาง</option>
+    <option value="dislike" >ไม่ชอบ</option>
+    <option value="don'tlike" >ไม่ชอบเลย</option>
+    </select><br>
+
+    อาหารที่ชื่อชอบชนิดที่ 3 :
+    <select name="like">
+    <option value="">-- Select satisfaction --</option>
+    <option value="most like" >ชอบมาก</option>
+    <option value="like" >ชอบ</option>
+    <option value="ืnormal" >ปานกลาง</option>
+    <option value="dislike" >ไม่ชอบ</option>
+    <option value="don'tlike" >ไม่ชอบเลย</option>
+    </select><br>
+    อาหารที่ชื่อชอบชนิดที่ 4 :
+    <select name="like">
+    <option value="">-- Select satisfaction --</option>
+    <option value="most like" >ชอบมาก</option>
+    <option value="like" >ชอบ</option>
+    <option value="ืnormal" >ปานกลาง</option>
+    <option value="dislike" >ไม่ชอบ</option>
+    <option value="don'tlike" >ไม่ชอบเลย</option>
+    </select><br>
+    อาหารที่ชื่อชอบชนิดที่ 5 :
+    <select name="like">
+    <option value="">-- Select satisfaction --</option>
+    <option value="most like" >ชอบมาก</option>
+    <option value="like" >ชอบ</option>
+    <option value="ืnormal" >ปานกลาง</option>
+    <option value="dislike" >ไม่ชอบ</option>
+    <option value="don'tlike" >ไม่ชอบเลย</option>
+    </select><br>
+</fieldset>
+<fieldset>
+    4.ค่าไฟ 3 เดือนที่ผ่านมา
+    <input type="number" required><br>
+</fieldset>
+<fieldset>
+    5.รหัสบัตรประชาชน
+    <input placeholder="รหัสบัตรประชาชน" type="text" pattern="\d{13}" maxlength="13"><br>
+</fieldset>
+<fieldset>
+    6.ความพึงพอใจของหนังสือเล่มนี้<br>
+    <label>ชอบมาก</label>
+    <input type="radio" value="like" name="book" required>
+    <label>ปานกลาง</option>
+    <input type="radio" value="normal" name="book" required>
+    <label>ไม่ชอบ</option>
+    <input type="radio" value="dislike" name="book" required><br>
+</fieldset>
+<fieldset>
+    
+    7.อาการป่วย<br>
+    <textarea cols="30" rows="5"></textarea><br>
+</fieldset>
+<fieldset>
+    8.ในช่วงเวลา3เดือน ที่ผ่านมาเคยได้รับวัคซีนหรือไม่<br>
+    <label>เคยได้รับ</label>
+    <input type="radio" value="get" name="get" required>
+    <label>ไม่เคยได้รับ</label>
+    <input type="radio" value="non-get" name="get" required><br>
+</fieldset>
+<fieldset>
+    9. รหัสผ่าน
+    <input type="password" name="password" required><br>
+</fieldset>
+<fieldset>
+    10. เวลาเริ่มเข้าเรียนและสิ้นสุดการเรียน<br>
+    เวลาเข้าเรียน<input type="time"> เวลาสิ้นสุดการเรียน <input type="time"><br>
+</fieldset>
+<fieldset>
+    11. วันเวลาที่ต้องไปพบแพทย์
+    <input type="datetime-local">
+</fieldset>
+
+</body>
+</html>
